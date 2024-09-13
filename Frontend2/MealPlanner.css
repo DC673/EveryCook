@@ -1,0 +1,77 @@
+.MealPlanGenerator {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.MealPlanGenerator h1 {
+    color: #333;
+    text-align: center;
+}
+
+.MealPlanGenerator form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.MealPlanGenerator input[type="number"],
+.MealPlanGenerator select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.MealPlanGenerator button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.MealPlanGenerator button:hover {
+    background-color: #0056b3;
+}
+
+.MealPlanGenerator .error {
+    color: red;
+    text-align: center;
+}
+
+.MealPlanGenerator .meal {
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.MealPlanGenerator .meal h3 {
+    color: #333;
+}
+
+.MealPlanGenerator .meal p {
+    margin: 5px 0;
+}
+
+.MealPlanGenerator .meal a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.MealPlanGenerator .meal a:hover {
+    text-decoration: underline;
+}
+
+.MealPlanGenerator img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
